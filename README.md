@@ -12,7 +12,7 @@ Dentro da [ferramenta de compilação online](https://www.maixhub.com/onlineComp
 
 O resto pode ser deixado com os valores padrôes. Após conferir se está tudo certo podemos submeter nosso firmware para compilação, e em alguns instantes você poderá fazer o download do arquivo .bin contendo seu firmware e poderá gravá-lo na sua placa usando a ferramenta kFlash, juntamente com seus dois modelos em seus respectivos endereços de memória.
 
-Os meus dois modelos serão usados para detectar se uma folha de café é saudável ou se não é e o segundo para classificar três tipos de doença nessa folha. O dataset utilizado pode ser encontrado [aqui](https://github.com/francismontalbo/swatdcnn) ele é uma coleção de outros três datasets que foram expandidos usando [data augmentation](https://nanonets.com/blog/data-augmentation-how-to-use-deep-learning-when-you-have-limited-data-part-2/) e os dois modelos foram treinados usando o exemplo de classificador que pode ser encontrado no github do axelerate.
+O primeiro modelo será usado para detectar se uma folha de café é saudável ou se não é e o segundo para classificar três tipos de doença nessa folha. O dataset utilizado pode ser encontrado [aqui](https://github.com/francismontalbo/swatdcnn) ele é uma coleção de outros três datasets que foram expandidos usando [data augmentation](https://nanonets.com/blog/data-augmentation-how-to-use-deep-learning-when-you-have-limited-data-part-2/) e os dois modelos foram treinados usando o exemplo de classificador que pode ser encontrado no github do axelerate.
 
 Com os modelos e o firmware gravados na placa podemos usar o seguinte script na plataforma maixpy para visualizar os resultados da inferência.
 
