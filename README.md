@@ -73,6 +73,22 @@ Com os modelos e o firmware gravados na placa podemos usar o seguinte script na 
 
 	a = kpu.deinit(task_stage1)
 	a = kpu.deinit(task_stage2)
+# Testes
+Temos os seguinte resultados:
+## Foto folha saudável
+Como não temos uma classe "healthy" no segundo modelo ele não sabe exatamente como classificar essa folha.
+![image](https://user-images.githubusercontent.com/74123993/126243057-e98f6547-b9b8-4974-8e11-8c486db6340c.png)
+
+## Folha não saudável
+![image](https://user-images.githubusercontent.com/74123993/126243153-7e1b7873-7237-479f-ab37-ab0288aa5b96.png)
+
+## Rust
+![image](https://user-images.githubusercontent.com/74123993/126243186-e8ff5e5f-563c-4939-9851-6010e8063da0.png)
+
+## Brown Spots
+![image](https://user-images.githubusercontent.com/74123993/126243223-b69684c5-acfb-40ae-ba21-b56d126f348e.png)
+
+## Sooty molds
+![image](https://user-images.githubusercontent.com/74123993/126243250-bcd0f1df-c546-44e0-8d60-5f5f4c26ca18.png)
 
 
-      
